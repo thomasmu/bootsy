@@ -17,5 +17,5 @@ Gem::Specification.new do |s|
     Dir['{app,config,db,lib}/**/*'] + ['MIT-LICENSE', 'Rakefile', 'README.md']
 
   s.add_dependency 'mini_magick', '~> 4.6'
-  s.add_dependency 'carrierwave', '~> 1.0'
+  s.add_dependency 'carrierwave', '~> 3.0.7'
 end
